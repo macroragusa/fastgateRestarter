@@ -132,6 +132,7 @@ func main(){
 	}
 	log.Printf("System info page token: %s\n", sysInfoPage.Sysinfo.Token)
 
+
 	// the magic (do restart)
 	resp, err = doRequest(
 		"GET",
